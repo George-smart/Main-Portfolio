@@ -237,10 +237,10 @@ section{
 About Styling
 ====================== */
 .about{
-    width: 100%;   
+    // width: 100%;   
     
     .about-content{
-        width: 100vw;
+        
         margin: 0;
         background-color: var(--secondary-color-2); 
         margin-bottom: 3rem;
@@ -313,6 +313,7 @@ About Styling
 
 // Service Styling
 .service-content{
+    width: 100vw;
     margin-bottom: 10rem;
     padding: 3rem 10rem;
     .service-grid{
@@ -688,6 +689,7 @@ Blog Styling
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    padding: 1rem;
                     i {
                         display: flex;
                         align-items: center;
@@ -754,6 +756,7 @@ Blog Styling
             margin-left: 2rem;
             i{
                 font-size: 2.5rem;
+                color: var(--text-color);
             }
             &:hover{
                 i{
@@ -879,50 +882,5 @@ Blog Styling
     }
     
 }
-/*
-.btn-con {
-    display: flex;
-    align-self: flex-start;
-}
-.main-btn {
-    border-radius: 30px;
-    color: inherit;
-    font-weight: 600;
-    position: relative;
-    border: 1px solid var(--btn-color);
-    display: flex;
-    align-self: flex-start;
-    align-items: center;
-    overflow: hidden;
-    .btn-text { padding: 0 2rem; }
-    .btn-icon {
-        background-color: var(--btn-color);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 50%;
-        padding: 1rem;
-    }
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translateX(100%);
-        transition: all .4s ease-out;
-        z-index: -1;
-    }
-    &:hover {
-        transition: all .4s ease-out;
-        &::before {
-            width: 100%;
-            height: 100%;
-            background-color: var(--btn-color);
-            transform: translateX(0);
-            transition: all .4s ease-out;
-        }
-    }
-
-}*/
 
 @import "./media"
