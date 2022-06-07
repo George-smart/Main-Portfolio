@@ -1043,7 +1043,7 @@ Blog Styling
   max-width: 150px;
   width: 100%;
   text-align: center;
-  padding: .5rem;
+  padding: 1rem .5rem;
   font-size: 2rem;
   background-color: var(--btn-color);
   border-radius: 3rem;
@@ -1222,6 +1222,12 @@ Blog Styling
   .about .about-grid {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .about .about-grid .left-about {
     margin-bottom: 3rem;
@@ -1267,6 +1273,12 @@ Blog Styling
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     grid-gap: 4rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .header .hero-section .left-hero-section {
     margin-top: 4rem;
@@ -1322,6 +1334,9 @@ Blog Styling
 }
 
 @media screen and (max-width: 700px) {
+  .about .about-grid {
+    padding: 1.5rem;
+  }
   .about .right-about {
     -ms-grid-columns: 1fr !important;
         grid-template-columns: 1fr !important;
@@ -1331,5 +1346,17 @@ Blog Styling
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .blog {
+    padding: 1.5rem;
+  }
+  .skill-set-content {
+    padding: 1.5rem !important;
+  }
+  .service-content {
+    padding: 1.5rem;
+  }
+  .hire-content {
+    padding: 1.5rem;
   }
 }
