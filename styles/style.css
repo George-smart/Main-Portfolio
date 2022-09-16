@@ -293,7 +293,6 @@ About Styling
 .about .about-content {
   margin: 0;
   background-color: var(--secondary-color-2);
-  margin-bottom: 3rem;
   padding: 3rem 0;
 }
 
@@ -328,62 +327,6 @@ About Styling
 .about .about-grid .left-about .btn-con .btn {
   font-size: 1.5rem;
   padding: .7rem !important;
-}
-
-.service-content {
-  width: 100vw;
-  margin-bottom: 10rem;
-  padding: 3rem 10rem;
-}
-
-.service-content .service-grid {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
-}
-
-.service-content .service-grid .service-item {
-  padding: 1.5rem;
-  background-color: var(--secondary-color-1);
-  color: var(--text-color);
-  -webkit-box-shadow: 2px 1px 3px var(--secondary-color-1);
-          box-shadow: 2px 1px 3px var(--secondary-color-1);
-}
-
-.service-content .service-grid .service-item h4 {
-  text-transform: uppercase;
-  text-align: center;
-  margin: 1rem 0;
-  font-size: 1.5rem;
-}
-
-.service-content .service-grid .service-item p {
-  font-size: 1.125rem;
-  text-align: center;
-}
-
-.service-content .service-grid .service-item .design-icon {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin: auto;
-  background-color: var(--btn-color);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.service-content .service-grid .service-item .design-icon i {
-  font-size: 1.8rem;
-  color: var(--white-color);
 }
 
 .skill-set {

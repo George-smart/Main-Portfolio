@@ -245,7 +245,6 @@ About Styling
         
         margin: 0;
         background-color: var(--secondary-color-2); 
-        margin-bottom: 3rem;
         padding: 3rem 0;
     }
     .about-grid{
@@ -282,51 +281,51 @@ About Styling
 }
 
 // Service Styling
-.service-content{
-    width: 100vw;
-    margin-bottom: 10rem;
-    padding: 3rem 10rem;
-    .service-grid{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 1rem;
+// .service-content{
+//     width: 100vw;
+//     margin-bottom: 10rem;
+//     padding: 3rem 10rem;
+//     .service-grid{
+//         display: grid;
+//         grid-template-columns: repeat(3, 1fr);
+//         grid-gap: 1rem;
 
-        .service-item{
-            padding: 1.5rem;
-            background-color: var(--secondary-color-1);
-            color: var(--text-color);
-            box-shadow: 2px 1px 3px var(--secondary-color-1);
+//         .service-item{
+//             padding: 1.5rem;
+//             background-color: var(--secondary-color-1);
+//             color: var(--text-color);
+//             box-shadow: 2px 1px 3px var(--secondary-color-1);
 
-            h4{
-                text-transform: uppercase;
-                text-align: center;
-                margin: 1rem 0;
-                font-size: 1.5rem;
-            }
-            p{
-                font-size: 1.125rem;
-                text-align: center;
-            }
+//             h4{
+//                 text-transform: uppercase;
+//                 text-align: center;
+//                 margin: 1rem 0;
+//                 font-size: 1.5rem;
+//             }
+//             p{
+//                 font-size: 1.125rem;
+//                 text-align: center;
+//             }
 
-            .design-icon{
-                width: 50px;
-                height: 50px;
-                border-radius: 50%;
-                margin: auto;
-                background-color: var(--btn-color);
-                display: flex;
-                justify-content: center;
-                align-items: center;
+//             .design-icon{
+//                 width: 50px;
+//                 height: 50px;
+//                 border-radius: 50%;
+//                 margin: auto;
+//                 background-color: var(--btn-color);
+//                 display: flex;
+//                 justify-content: center;
+//                 align-items: center;
 
-                i{
-                    font-size: 1.8rem;
-                    color: var(--white-color);
-                }
-            }
+//                 i{
+//                     font-size: 1.8rem;
+//                     color: var(--white-color);
+//                 }
+//             }
 
-        }
-    }
-}
+//         }
+//     }
+// }
 
 
 // Skill Set Styling
