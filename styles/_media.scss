@@ -215,6 +215,11 @@
             }
         }
     }
+    .submit-btn{
+        .btn{
+            font-size: 1.8rem;
+        }
+    }
 }
 @media screen and (max-width: 700px) {
     .controls{
@@ -259,6 +264,25 @@
             grid-gap: 2rem;
         }
     }
+    .contact-item{
+        .icon{
+            width: 60px !important;
+            height: 60px !important;
+            margin-right: 10px !important;
+
+            .fas{
+                font-size: 1.8rem !important;
+            }
+        }
+        p{
+            font-size: .8rem;
+        }
+   }
+   .footer{
+        .fab{
+            font-size: 1.8rem !important;
+        }
+   }
 }
 
 @media screen and (max-width: 564px) {
@@ -289,6 +313,11 @@
 }
 
 @media screen and (max-width: 500px) {
+    .submit-btn{
+        .btn{
+            font-size: 1.5rem;
+        }
+    }
     .about{
         .about-grid{
             .left-about{
@@ -324,6 +353,17 @@
    } 
 }
 
+@media screen and (max-width: 450px) {
+    .contact-container{
+        padding: 1.5rem !important;
+
+        .submit-btn{
+            .btn{
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
 
 @media screen and (max-width: 375px) {
     .header{
@@ -345,6 +385,9 @@
         }
     }    
 
+    .contact-container{
+        padding: 1rem;
+    }
     .controls{
         .control{
             width: 50px !important;
@@ -372,4 +415,36 @@
             font-size: 1rem !important;
         }
    } 
+   .contact-item{
+        .icon{
+            width: 60px !important;
+            height: 60px !important;
+            margin-right: 10px !important;
+
+            .fas{
+                font-size: 1.5rem !important;
+            }
+        }
+        p{
+            font-size: .8rem;
+        }
+   }
+   .footer{
+        padding: 1rem !important;
+
+        .fab{
+            font-size: 1.5rem !important;
+        }
+   }
+   .btn-con{
+    .btn{
+        font-size: 1.5rem;
+    }
+    a{
+        font-size: .8rem !important;
+        .btn-icon{
+            display: none !important;
+        }
+    }
+    }
 }
