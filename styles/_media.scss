@@ -73,13 +73,31 @@
         }
     }
 
-    .service-content{
-        .service-grid{
-            grid-template-columns: 1fr;
-            grid-gap: 3rem;
+    .header{
+        .logo{
+            .logo-text{
+                font-size: 1.5rem
+            } 
+        }
+        
+        .name{
+            font-size: 2rem !important;
+            .hero-title{
+                font-size: 2rem !important;
+            }
+        }
+        .hero-description{
+            font-size: 1.5rem !important;
+        }
+        .btn{
+            font-size: 1rem;
         }
     }
-    
+   .hover-items{
+        h3{
+            font-size: 2rem !important;
+        }
+   }    
 }
 @media screen and (max-width: 900px) {
     // Control Stylings 
@@ -113,15 +131,53 @@
         
         }
     }
-
-    .skill-set-content{
-        grid-template-columns: 1fr !important;
+    .name-title{
+        font-size: 2.5rem !important;
     }
+    .about{
+        .about-grid{
+            .left-about{
+                h3{
+                    font-size: 1.8rem;
+                }
+                p{
+                    font-size: 1.125rem;
+                }
+
+            }
+        }
+    } 
+
+    .service-content{
+        padding: 2rem;
+    }
+
+    .service-item{
+        padding: 1rem !important;
+        h4{
+            font-size: 1.125rem !important;
+            font-weight: 600;
+        }
+        p{
+            font-size: 1rem !important;
+        }
+    }
+    
     .hire-content{
         grid-template-columns: 1fr;
+        .left-content{
+            h2{
+                font-size: 2.5rem;
 
+            }
+            p{
+                font-size: 1.125rem;
+            }
+        }
         .btn{
             margin-top: 4rem;
+            padding: 1rem !important;
+            font-size: 1.5rem !important;
         }
     }
     .portfolio{
@@ -161,17 +217,15 @@
     }
 }
 @media screen and (max-width: 700px) {
-    .hero-section{
-
+    .controls{
+        .control{
+            width: 60px !important;
+            height: 60px !important;
+        }
     }
     .about{
         .about-grid{
             padding: 1.5rem;
-        }
-        .right-about{
-            grid-template-columns: 1fr !important;
-            justify-content: center;
-            align-items: center;
         }
     }
     .about-item{
@@ -199,4 +253,123 @@
             margin-bottom: 1.5rem;
         }
     }
+    .service-content{
+        .service-grid{
+            grid-template-columns: 1fr;
+            grid-gap: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 564px) {
+    .header{
+        padding: 2rem;
+        .hero-text{
+            .greeting{
+                font-size: 1.5rem !important;
+            }
+            .name{
+                font-size: 1.5rem;
+                
+            }
+        }
+        .hero-description{
+            font-size: .9rem;
+        }
+        .btn{
+            font-size: 1rem;
+        }
+    }   
+    .about{
+        .name-title{
+            font-size: 2rem !important;
+        }
+    
+    } 
+}
+
+@media screen and (max-width: 500px) {
+    .about{
+        .about-grid{
+            .left-about{
+                h3{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    .skill-set-content{
+        .bar-title{
+            font-size: 1.5rem !important;
+        }
+        .skill-name{
+            font-size: 1.125rem !important;
+        }
+
+    }
+    .hire-content{
+        .left-content{
+            h2{
+                font-size: 1.8rem;
+            }
+            p{
+                font-size: 0.9rem !important;
+            }
+        }
+    }
+    .hover-items{
+        h3{
+            font-size: 1.5rem !important;
+        }
+   } 
+}
+
+
+@media screen and (max-width: 375px) {
+    .header{
+        padding: 1.5rem;
+        .hero-text{
+            .greeting{
+                font-size: 1rem !important;
+            }
+            .name{
+                font-size: 1rem;
+                
+            }
+        }
+        .hero-description{
+            font-size: .5rem;
+        }
+        .btn{
+            font-size: 1rem;
+        }
+    }    
+
+    .controls{
+        .control{
+            width: 50px !important;
+            height: 50px !important;
+        }
+    }
+    .about .name-title {
+        font-size: 1.8rem !important;
+    }
+    .about .about-grid .left-about h3 {
+        font-size: 1.125rem;
+    }
+    .about .about-grid .left-about p {
+        font-size: 1rem;
+    }
+    .skill-set-content{
+        grid-template-columns: 1fr !important;
+      
+    }
+    .hover-items{
+        h3{
+            font-size: 1rem !important;
+        }
+        .live_link a{
+            font-size: 1rem !important;
+        }
+   } 
 }

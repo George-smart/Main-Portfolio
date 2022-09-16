@@ -207,7 +207,7 @@ section {
 }
 
 .header {
-  padding: 3rem 10rem;
+  padding: 3rem 4rem;
   min-height: 100vh;
 }
 
@@ -216,7 +216,7 @@ section {
 }
 
 .header .logo .logo-text {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 
 .header .logo .color-change {
@@ -245,25 +245,25 @@ section {
 }
 
 .header .hero-section .left-hero-section .greeting {
-  font-size: 2.5rem;
+  font-size: 2rem;
   display: block;
   margin-bottom: 1.5rem;
 }
 
 .header .hero-section .left-hero-section .name {
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 1.2;
   margin-bottom: 1.5rem;
   color: var(--btn-color);
 }
 
 .header .hero-section .left-hero-section .name .hero-title {
-  font-size: 4rem;
+  font-size: 3rem;
   color: var(--text-color);
 }
 
 .header .hero-section .left-hero-section .hero-description {
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
 }
 
@@ -298,28 +298,10 @@ About Styling
 }
 
 .about .about-grid {
-  padding: 3rem 10rem;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  padding: 3rem 5rem;
 }
 
 .about .about-grid .left-about {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
   color: var(--text-color);
   line-height: 1.4;
 }
@@ -327,59 +309,25 @@ About Styling
 .about .about-grid .left-about h3 {
   text-transform: uppercase;
   margin-bottom: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .about .about-grid .left-about p {
   color: var(--text-color-2);
   margin-bottom: .5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
-.about .about-grid .right-about {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
+.about .about-grid .left-about .btn-con {
+  margin-top: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.about .about-grid .right-about .about-item {
-  border: 1px solid var(--secondary-color-1);
-  padding: 4rem 3rem;
-  cursor: pointer;
-  -webkit-transition: var(--transition);
-  transition: var(--transition);
-}
-
-.about .about-grid .right-about .about-item:hover {
-  border-color: var(--btn-color);
-  -webkit-transform: translateY(5%);
-          transform: translateY(5%);
-}
-
-.about .about-grid .right-about .about-item .large-text {
-  font-size: 3rem;
-  font-weight: 600;
-  color: var(--btn-color);
-}
-
-.about .about-grid .right-about .about-item .small-text {
-  color: var(--text-color-2);
-  margin-top: 1rem;
-  padding-left: 4rem;
-  position: relative;
-  font-size: 1.8rem;
-}
-
-.about .about-grid .right-about .about-item .small-text::before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 50px;
-  height: 2px;
-  background-color: var(--text-color-2);
+.about .about-grid .left-about .btn-con .btn {
+  font-size: 1.5rem;
+  padding: .7rem !important;
 }
 
 .service-content {
@@ -397,7 +345,7 @@ About Styling
 }
 
 .service-content .service-grid .service-item {
-  padding: 3rem 4rem;
+  padding: 1.5rem;
   background-color: var(--secondary-color-1);
   color: var(--text-color);
   -webkit-box-shadow: 2px 1px 3px var(--secondary-color-1);
@@ -408,17 +356,17 @@ About Styling
   text-transform: uppercase;
   text-align: center;
   margin: 1rem 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .service-content .service-grid .service-item p {
-  font-size: 1.5rem;
+  font-size: 1.125rem;
   text-align: center;
 }
 
 .service-content .service-grid .service-item .design-icon {
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin: auto;
   background-color: var(--btn-color);
@@ -435,7 +383,7 @@ About Styling
 
 .service-content .service-grid .service-item .design-icon i {
   font-size: 1.8rem;
-  color: var(--text-color);
+  color: var(--white-color);
 }
 
 .skill-set {
@@ -490,71 +438,7 @@ About Styling
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-size: 1.5rem;
-}
-
-.skill-set .skill-set-content .progress-bars .graphic-rate {
-  width: 90%;
-}
-
-.skill-set .skill-set-content .progress-bars .photoshop-rate {
-  width: 72%;
-}
-
-.skill-set .skill-set-content .progress-bars .figma-rate {
-  width: 60%;
-}
-
-.skill-set .skill-set-content .progress-bars .html-rate {
-  width: 90%;
-}
-
-.skill-set .skill-set-content .progress-bars .css-rate {
-  width: 72%;
-}
-
-.skill-set .skill-set-content .progress-bars .javascript-rate {
-  width: 60%;
-}
-
-.skill-set .skill-set-content .progress-bars .progress {
-  width: 100%;
-  height: .2rem;
   margin-top: .5rem;
-  margin-bottom: 3rem;
-  background-color: var(--text-color);
-  position: relative;
-}
-
-.skill-set .skill-set-content .progress-bars .progress span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background-color: var(--btn-color);
-}
-
-.skill-set .skill-set-content .progress-bars .progress .graphic {
-  width: 90%;
-}
-
-.skill-set .skill-set-content .progress-bars .progress .photoshop {
-  width: 72%;
-}
-
-.skill-set .skill-set-content .progress-bars .progress .figma {
-  width: 60%;
-}
-
-.skill-set .skill-set-content .progress-bars .progress .html {
-  width: 90%;
-}
-
-.skill-set .skill-set-content .progress-bars .progress .javascript {
-  width: 60%;
-}
-
-.skill-set .skill-set-content .progress-bars .progress .css {
-  width: 72%;
 }
 
 .hire-content {
@@ -673,7 +557,6 @@ Portfolio Styling
       -ms-flex-align: center;
           align-items: center;
   background-color: var(--btn-color);
-  color: var(--text-color);
   -webkit-transform: scale(0);
           transform: scale(0);
   -webkit-transition: var(--transition);
@@ -683,6 +566,33 @@ Portfolio Styling
 .portfolio .portfolio-content .portfolio-item .hover-items h3 {
   text-align: center;
   font-size: 2.5rem;
+  color: #fff;
+}
+
+.portfolio .portfolio-content .portfolio-item .hover-items .source_con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+.portfolio .portfolio-content .portfolio-item .hover-items .source_con .live_link {
+  font-size: 2rem;
+  background-color: var(--primary-color);
+  padding: .5rem;
+  border-radius: 1rem;
+}
+
+.portfolio .portfolio-content .portfolio-item .hover-items .source_con .live_link:hover {
+  color: var(--btn-color);
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
 }
 
 .portfolio .portfolio-content .portfolio-item .hover-items .icons {
@@ -944,6 +854,11 @@ Blog Styling
   font-weight: 600;
 }
 
+.email-1,
+.email-2 {
+  word-break: break-all;
+}
+
 .footer {
   padding: 3rem 10rem;
 }
@@ -1044,7 +959,7 @@ Blog Styling
   padding: 1rem .5rem;
   font-size: 2rem;
   background-color: var(--btn-color);
-  border-radius: 3rem;
+  border-radius: 1rem;
   -webkit-transition: var(--transition);
   transition: var(--transition);
   color: var(--btn-text-color);
@@ -1190,10 +1105,23 @@ Blog Styling
         -ms-grid-row-align: center;
         align-self: center;
   }
-  .service-content .service-grid {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    grid-gap: 3rem;
+  .header .logo .logo-text {
+    font-size: 1.5rem;
+  }
+  .header .name {
+    font-size: 2rem !important;
+  }
+  .header .name .hero-title {
+    font-size: 2rem !important;
+  }
+  .header .hero-description {
+    font-size: 1.5rem !important;
+  }
+  .header .btn {
+    font-size: 1rem;
+  }
+  .hover-items h3 {
+    font-size: 2rem !important;
   }
 }
 
@@ -1237,16 +1165,42 @@ Blog Styling
     margin-top: 4rem;
     margin-bottom: 4rem;
   }
-  .skill-set-content {
-    -ms-grid-columns: 1fr !important;
-        grid-template-columns: 1fr !important;
+  .name-title {
+    font-size: 2.5rem !important;
+  }
+  .about .about-grid .left-about h3 {
+    font-size: 1.8rem;
+  }
+  .about .about-grid .left-about p {
+    font-size: 1.125rem;
+  }
+  .service-content {
+    padding: 2rem;
+  }
+  .service-item {
+    padding: 1rem !important;
+  }
+  .service-item h4 {
+    font-size: 1.125rem !important;
+    font-weight: 600;
+  }
+  .service-item p {
+    font-size: 1rem !important;
   }
   .hire-content {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+  .hire-content .left-content h2 {
+    font-size: 2.5rem;
+  }
+  .hire-content .left-content p {
+    font-size: 1.125rem;
+  }
   .hire-content .btn {
     margin-top: 4rem;
+    padding: 1rem !important;
+    font-size: 1.5rem !important;
   }
   .portfolio .portfolio-content {
     -ms-grid-columns: 1fr;
@@ -1287,18 +1241,12 @@ Blog Styling
 }
 
 @media screen and (max-width: 700px) {
+  .controls .control {
+    width: 60px !important;
+    height: 60px !important;
+  }
   .about .about-grid {
     padding: 1.5rem;
-  }
-  .about .right-about {
-    -ms-grid-columns: 1fr !important;
-        grid-template-columns: 1fr !important;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .about-item {
     padding: 2rem !important;
@@ -1323,5 +1271,93 @@ Blog Styling
         -ms-flex-pack: center;
             justify-content: center;
     margin-bottom: 1.5rem;
+  }
+  .service-content .service-grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .header {
+    padding: 2rem;
+  }
+  .header .hero-text .greeting {
+    font-size: 1.5rem !important;
+  }
+  .header .hero-text .name {
+    font-size: 1.5rem;
+  }
+  .header .hero-description {
+    font-size: .9rem;
+  }
+  .header .btn {
+    font-size: 1rem;
+  }
+  .about .name-title {
+    font-size: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .about .about-grid .left-about h3 {
+    font-size: 1.5rem;
+  }
+  .skill-set-content .bar-title {
+    font-size: 1.5rem !important;
+  }
+  .skill-set-content .skill-name {
+    font-size: 1.125rem !important;
+  }
+  .hire-content .left-content h2 {
+    font-size: 1.8rem;
+  }
+  .hire-content .left-content p {
+    font-size: 0.9rem !important;
+  }
+  .hover-items h3 {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    padding: 1.5rem;
+  }
+  .header .hero-text .greeting {
+    font-size: 1rem !important;
+  }
+  .header .hero-text .name {
+    font-size: 1rem;
+  }
+  .header .hero-description {
+    font-size: .5rem;
+  }
+  .header .btn {
+    font-size: 1rem;
+  }
+  .controls .control {
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .about .name-title {
+    font-size: 1.8rem !important;
+  }
+  .about .about-grid .left-about h3 {
+    font-size: 1.125rem;
+  }
+  .about .about-grid .left-about p {
+    font-size: 1rem;
+  }
+  .skill-set-content {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+  .hover-items h3 {
+    font-size: 1rem !important;
+  }
+  .hover-items .live_link a {
+    font-size: 1rem !important;
   }
 }

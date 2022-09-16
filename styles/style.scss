@@ -1,3 +1,4 @@
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;900&display=swap');
 
 // Dark Color
 :root {
@@ -35,6 +36,7 @@
     list-style: none;
     box-sizing: border-box;
 }
+
 
 body{
     width: 100%;
@@ -167,12 +169,12 @@ section{
 
 // Home Styling
 .header{
-    padding: 3rem 10rem;
+    padding: 3rem 4rem;
     min-height: 100vh;
     .logo{
         margin-bottom: 3rem;
         .logo-text{
-            font-size: 2.5rem;
+            font-size: 2rem;
         }
         .color-change{
             color: var(--btn-color);
@@ -190,22 +192,22 @@ section{
             align-items: center;
 
             .greeting{
-                font-size: 2.5rem;
+                font-size: 2rem;
                 display: block;
                 margin-bottom: 1.5rem;
             }
             .name{
-                font-size: 4rem;
+                font-size: 3rem;
                 line-height: 1.2;
                 margin-bottom: 1.5rem;
                 color: var(--btn-color);
                 .hero-title{
-                    font-size: 4rem;
+                    font-size: 3rem;
                     color: var(--text-color);
                 }
             }
             .hero-description{
-                font-size: 2rem;
+                font-size: 1.5rem;
                 line-height: 1.5;
             }
             .btn{
@@ -247,67 +249,35 @@ About Styling
         padding: 3rem 0;
     }
     .about-grid{
-        padding: 3rem 10rem;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 2rem;
+        padding: 3rem 5rem;
 
         .left-about{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
+        
             color: var(--text-color);
             line-height: 1.4;
             h3{
                 text-transform: uppercase;
                 margin-bottom: 1rem;
-                font-size: 3rem;
+                font-size: 2rem;
             }
             p{
                 color: var(--text-color-2);
                 margin-bottom: .5rem;
-                font-size: 2rem;
+                font-size: 1.5rem;
             }
+
+            .btn-con{
+                margin-top: 2rem;
+                align-items: center;
+                .btn{
+                    font-size: 1.5rem;
+                    padding: .7rem !important;
+                }
+            }
+            
 
         }
         
-        .right-about{
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-gap: 1rem;
-            .about-item{
-                border: 1px solid var(--secondary-color-1);
-                padding: 4rem 3rem;
-                cursor: pointer;
-                transition: var(--transition);
-                &:hover{
-                    border-color: var(--btn-color);
-                    transform: translateY(5%);
-                }
-                .large-text{
-                    font-size: 3rem;
-                    font-weight: 600;
-                    color: var(--btn-color);
-                }
-                .small-text{
-                    color: var(--text-color-2);
-                    margin-top: 1rem;
-                    padding-left: 4rem;
-                    position: relative;
-                    font-size: 1.8rem;
-                }
-                .small-text::before{
-                    content: "";
-                    position: absolute;
-                    top: 50%;
-                    left: 0;
-                    width: 50px;
-                    height: 2px;
-                    background-color: var(--text-color-2);
-                }
-            }
-        }
     }
 }
 
@@ -322,7 +292,7 @@ About Styling
         grid-gap: 1rem;
 
         .service-item{
-            padding: 3rem 4rem;
+            padding: 1.5rem;
             background-color: var(--secondary-color-1);
             color: var(--text-color);
             box-shadow: 2px 1px 3px var(--secondary-color-1);
@@ -331,16 +301,16 @@ About Styling
                 text-transform: uppercase;
                 text-align: center;
                 margin: 1rem 0;
-                font-size: 2rem;
+                font-size: 1.5rem;
             }
             p{
-                font-size: 1.5rem;
+                font-size: 1.125rem;
                 text-align: center;
             }
 
             .design-icon{
-                width: 80px;
-                height: 80px;
+                width: 50px;
+                height: 50px;
                 border-radius: 50%;
                 margin: auto;
                 background-color: var(--btn-color);
@@ -350,7 +320,7 @@ About Styling
 
                 i{
                     font-size: 1.8rem;
-                    color: var(--text-color);
+                    color: var(--white-color);
                 }
             }
 
@@ -366,18 +336,16 @@ About Styling
    margin-bottom: 4rem;
    
    .skill-set-content{
-       display: grid;
-       grid-template-columns: repeat(2, 1fr);
-       grid-gap: 4rem;
-       padding: 3rem 10rem;
-       h4{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 4rem;
+        padding: 3rem 10rem;
+        h4{
             margin-bottom: 2rem;
             .bar-title{
                 font-size: 2rem;
                 color: var(--text-color);
-            
             }
-
             .skill-underline1{
                 display: block;
                 width: 120px;
@@ -393,70 +361,17 @@ About Styling
                 background-color: var(--text-color);
             }
         }
-
-       .progress-bars{
-           color: var(--text-color-2);
-           p{
-               display: flex;
-               justify-content: space-between;
-               font-size: 1.5rem;
-               
-           }
-           .graphic-rate{
-               width: 90%;
-           }
-           .photoshop-rate{
-               width: 72%;
-           }
-           .figma-rate{
-               width: 60%;
-           }
-           .html-rate{
-               width: 90%;
-           }
-           .css-rate{
-               width: 72%;
-           }
-           .javascript-rate{
-               width: 60%;
-           }
-           .progress{
-               width: 100%;
-               height: .2rem;
-               margin-top: .5rem;
-               margin-bottom: 3rem;
-               background-color: var(--text-color);
-               position: relative;
-
-               span{
-                   position: absolute;
-                   top: 0;
-                   left: 0;
-                   height: 100%;
-                   background-color: var(--btn-color);
-               }
-               .graphic{
-                   width: 90%;
-               }
-               .photoshop{
-                   width: 72%;
-               }
-               .figma{
-                   width: 60%;
-               }
-               .html{
-                   width: 90%;
-               }
-               .javascript{
-                   width: 60%;
-               }
-               .css{
-                   width: 72%;
-               }
-           }
-       }
-   }
-
+        .progress-bars{
+            color: var(--text-color-2);
+            p{
+                display: flex;
+                justify-content: space-between;
+                font-size: 1.5rem;
+                margin-top: .5rem;
+            }  
+    
+        }
+    }
 }
 
 // Hire Info
@@ -534,12 +449,30 @@ Portfolio Styling
                 justify-content: center;
                 align-items: center;
                 background-color: var(--btn-color);
-                color: var(--text-color);
                 transform: scale(0);
                 transition: var(--transition);
                 h3{
                     text-align: center;
                     font-size: 2.5rem;
+                    color: #fff;
+                }
+                
+                .source_con{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 2rem;
+
+                    .live_link{
+                        font-size: 2rem;
+                        background-color: var(--primary-color);
+                        padding: .5rem;
+                        border-radius: 1rem;
+                        &:hover{
+                            color: var(--btn-color);
+                            transition: var(--transition);
+                        }
+                    }
                 }
 
                 .icons{
@@ -565,6 +498,8 @@ Portfolio Styling
                         }
                     }
                 }
+
+                
             }
 
         }
@@ -744,6 +679,11 @@ Blog Styling
     }
 }
 
+.email-1,
+.email-2{
+    word-break: break-all;
+}
+
 // Footer
 .footer{
     padding: 3rem 10rem;
@@ -831,7 +771,7 @@ Blog Styling
     padding: 1rem .5rem;
     font-size: 2rem;
     background-color: var(--btn-color);
-    border-radius: 3rem;   
+    border-radius: 1rem;   
     transition: var(--transition);
     color: var(--btn-text-color);
     &:hover{
