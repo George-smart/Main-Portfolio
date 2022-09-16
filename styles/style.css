@@ -585,6 +585,7 @@ Portfolio Styling
 .portfolio .portfolio-content .portfolio-item .hover-items .source_con .live_link {
   font-size: 2rem;
   background-color: var(--primary-color);
+  color: var(--text-color);
   padding: .5rem;
   border-radius: 1rem;
 }
